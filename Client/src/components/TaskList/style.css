@@ -1,0 +1,36 @@
+.taskList {
+  width: 100%;
+  z-index: 1;
+  padding: 10vh 0;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(1, auto);
+  gap: 50px;
+}
+
+.message--center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 700px) {
+  .taskList {
+    grid-template-columns: repeat(2, auto);
+    gap: 80px;
+  }
+}
+
+@media (min-width: 1040px) {
+  .taskList {
+    grid-template-columns: repeat(3, auto);
+  }
+}
+
+@media (min-width: 1300px) {
+  .taskList {
+    grid-template-columns: repeat(3, auto);
+    margin: 0 0 0 300px;
+  }
+}

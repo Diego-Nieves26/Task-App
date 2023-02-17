@@ -1,0 +1,12 @@
+.modal {
+  width: 90%;
+  max-width: 375px;
+  padding: 20px;
+  background-color: var(--primary-color);
+  position: absolute;
+  top: 0;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  z-index: 999;
+  color: #fff;
+}
